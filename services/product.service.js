@@ -37,6 +37,7 @@ class ProductsService {
   }
 
   async findOne(id){
+    // const name = this.getTotal(); //error generado para la parte uno de middlewares
     return this.products.find(item => item.id === id);
   }
 
